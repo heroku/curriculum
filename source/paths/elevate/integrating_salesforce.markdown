@@ -31,11 +31,6 @@ Conceptually it works like this:
 
 ![Heroku Connect](/images/elevate/heroku_connect.png)
 
-### Availability
-
-Heroku Connect is a brand new feature that's being released in the first half of 2014. But today we can take a look at how it works.
-
-If you'd like to discuss it more and apply to be a beta partner, email [Margaret Francis](mailto:margaret@heroku.com).
 
 ## Setting up Connect
 
@@ -46,12 +41,12 @@ Setting up Heroku Connect is straightforward and takes just a few minutes.
 From the application directory we can install it like any other add-on.
 
 {% terminal %}
-$ heroku addons:add herokuconnect
+$ heroku addons:add herokuconnect:test
 Adding herokuconnect on play-demo-001... done, v17 (free)
 Use 'heroku addons:open herokuconnect' to finish setup
 {% endterminal %}
 
-**NOTE:** Unless your Heroku account has been approved for early access to connect, this step will fail.
+**NOTE:** Unless your Heroku account has been approved for access to Heroku Connect, this step will fail.
 
 ### Web-Based Setup
 
