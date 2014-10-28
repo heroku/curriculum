@@ -285,23 +285,23 @@ You should be aware that the free Hobby-Dev database has some significant limita
 * It allows only 10,000 rows of data in aggregate across all tables
 * It does not allow for "follower" databases, making backup more complex
 * Max 20 connections
-* 0mb of RAM
+* 0MB of reserved, dedicated RAM
 
-#### Standard-Yanari
+#### Standard-0
 
-We'll upgrade to the Standard-Yanari level which:
+We'll upgrade to the Standard-0 level which:
 
 * Costs $50/month
 * Unlimited data rows, 64gb total data
 * Follower databases enabled
-* Max 60 connections
-* 410mb RAM
+* Max 120 connections
+* 1GB RAM
 
-From there it goes up and up. You can spend $6,000/month on an instance with 68gb of dedicated RAM and support for a terrabyte of data. You can [see all the options here](https://addons.heroku.com/heroku-postgresql).
+From there it goes up and up. You can spend $6,000/month on an instance with 120GB of dedicated RAM and support for a terabyte of data. You can [see all the options here](https://www.heroku.com/pricing).
 
 ### Replacement vs Migration
 
-Let's look at how to upgrade an application from the "Hobby Dev" to "Standard Yanari", the bottom level that Heroku considers "production scale."
+Let's look at how to upgrade an application from the "Hobby Dev" to "Standard 0", the bottom level that Heroku considers "production scale."
 
 There are different procedures for replacing the database with a new one versus migrating the existing data to a new instance. Let's look at the easier of the two, full replacement.
 
@@ -346,8 +346,8 @@ If your application had more than one PostgreSQL database then there'd be more t
 To add the new database instance we just need a single instruction:
 
 {% terminal %}
-$ heroku addons:add heroku-postgresql:standard-yanari
-Adding heroku-postgresql:standard-yanari on boiling-island-2815... done, v9 ($50/mo)
+$ heroku addons:add heroku-postgresql:standard-0
+Adding heroku-postgresql:standard-0 on boiling-island-2815... done, v9 ($50/mo)
 Attached as HEROKU_POSTGRESQL_ROSE_URL
 The database should be available in 3-5 minutes.
  ! The database will be empty. If upgrading, you can transfer
@@ -417,14 +417,14 @@ If you're running a Play application with auto-apply evolutions enabled, then th
 That production-quality instance we just added upped our bill by $50/month. That far exceed the budget of a little sample application. Let's undo it:
 
 * Change the `DATABASE_URL` back to the free instance
-* Remove the Yanari instance
+* Remove the Standard-0 instance
 
 It's the reverse of what we did before:
 
 {% terminal %}
 $ heroku config:unset DATABASE_URL
 $ heroku config:set DATABASE_URL=postgres://username:password@ec2-54-225-101-119.compute-1.amazonaws.com:5432/d4tstdg3etpui8
-$ heroku addons:remove heroku-postgresql:standard-yanari
+$ heroku addons:remove heroku-postgresql:standard-0
 {% endterminal %}
 
 Where the URL in step two was our original `HEROKU_POSTGRESQL_JADE_URL`.
