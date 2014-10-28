@@ -28,8 +28,9 @@ Option one is to use the graphical interface on Heroku.com. You should:
 
 * Visit https://dashboard.heroku.com/apps
 * Click the name of the application you want to manipulate
+* Click "Edit" on the far right
 * Under "Dynos", slide the marker to the right
-* Click "Apply Changes" (your account will really be debited by the minute)
+* Click "Save" (your account will really be debited by the minute)
 
 ### From the CLI
 
