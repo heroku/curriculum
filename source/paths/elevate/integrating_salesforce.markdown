@@ -119,12 +119,19 @@ On the *Salesforce* tab of Connect we:
 
 * See the actions to be taken and click *Continue*
 
-![Create New Mapping](/images/elevate/connect_new_mapping.png)
+* Specifiy you want bidirectional synchronization (Read / Write)
+![Read Write](/images/elevate/connect_read_write mm.png)
+
+![Create New Mapping](/images/elevate/connect_new_mapping mm.png)
 
 * Notice the cloud sync icon spinning on the left
-* See the sync icon change to a green check like this:
+* See the sync icon change to a check like this:
 
 ![Dashboard Synced](/images/elevate/connect_dashboard_synced.png)
+
+* Change the synchronization frequency
+![Edit Settings](/images/elevate/connect_edit_settings.png)
+
 
 ### Inspecting the Data
 
