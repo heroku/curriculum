@@ -132,6 +132,8 @@ On the *Salesforce* tab of Connect we:
 * Change the synchronization frequency
 ![Edit Settings](/images/elevate/connect_edit_settings.png)
 
+* Notice polling versus listen mode and estimated API consumption for different approaches
+![Synch Mode](/images/elevate/connect_synch_mode.png)
 
 ### Inspecting the Data
 
