@@ -1,0 +1,7 @@
+{
+  "name": "Elevate Curriculum",
+  "description": "App to deliver the curriculum for a Java based Heroku Elevate",
+  "repository": "https://github.com/heroku/curriculum",
+  "logo": "http://upload.wikimedia.org/wikipedia/en/a/a9/Heroku_logo.png",
+  "keywords": ["Java", "Elevate"]
+}
