@@ -29,7 +29,7 @@ Heroku Connect creates a sync between your Salesforce data and your Heroku appli
 
 Conceptually it works like this:
 
-![Heroku Connect](https://raw.githubusercontent.com/heroku/curriculum/master/source/images/elevate/heroku_connect.png)
+![Heroku Connect](/images/elevate/heroku_connect.png)
 
 
 ## Setting up Connect
@@ -62,7 +62,7 @@ And it'll start the web-based setup.
 
 First, you're asked to select the environment variable that has the address of your current PostgreSQL database. Typically this is `DATABASE_URL`.
 
-![DATABASE_URL](https://raw.githubusercontent.com/heroku/curriculum/master/source/images/elevate/connect_database.png)
+![DATABASE_URL](/images/elevate/connect_database.png)
 
 #### Schema
 
