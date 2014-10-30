@@ -62,7 +62,7 @@ And it'll start the web-based setup.
 
 First, you're asked to select the environment variable that has the address of your current PostgreSQL database. Typically this is `DATABASE_URL`.
 
-![DATABASE_URL](/images/elevate/connect_database.png)
+![DATABASE_URL](https://raw.githubusercontent.com/heroku/curriculum/master/source/images/elevate/connect_database.png)
 
 #### Schema
 
