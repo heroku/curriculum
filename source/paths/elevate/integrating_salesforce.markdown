@@ -29,7 +29,7 @@ Heroku Connect creates a sync between your Salesforce data and your Heroku appli
 
 Conceptually it works like this:
 
-![Heroku Connect](/images/elevate/heroku_connect.png)
+![Heroku Connect](https://raw.githubusercontent.com/heroku/curriculum/master/source/images/elevate/heroku_connect.png)
 
 
 ## Setting up Connect
