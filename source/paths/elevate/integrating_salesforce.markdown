@@ -120,6 +120,7 @@ On the *Salesforce* tab of Connect we:
 * See the actions to be taken and click *Continue*
 
 * Specifiy you want bidirectional synchronization (Read / Write)
+
 ![Read Write](/images/elevate/connect_read_write mm.png)
 
 ![Create New Mapping](/images/elevate/connect_new_mapping mm.png)
@@ -130,9 +131,11 @@ On the *Salesforce* tab of Connect we:
 ![Dashboard Synced](/images/elevate/connect_dashboard_synced.png)
 
 * Change the synchronization frequency
+
 ![Edit Settings](/images/elevate/connect_edit_settings.png)
 
 * Notice polling versus listen mode and estimated API consumption for different approaches
+
 ![Synch Mode](/images/elevate/connect_synch_mode.png)
 
 ### Inspecting the Data
