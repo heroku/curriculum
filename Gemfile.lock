@@ -28,7 +28,7 @@ GEM
     maruku (0.6.1)
       syntax (>= 1.0.0)
     nokogiri (1.5.5)
-    pdfkit (0.5.2)
+    pdfkit (0.8.7.2)
     posix-spawn (0.3.6)
     puma (1.6.3)
       rack (~> 1.2)
