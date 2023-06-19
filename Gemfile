@@ -18,7 +18,7 @@ gem 'rb-fsevent', '~> 0.9'
 gem 'stringex', '~> 1.4.0'
 gem 'liquid', '~> 2.3.0'
 
-gem 'sinatra', '~> 1.3.2'
+gem 'sinatra', '~> 2.2.3'
 gem 'sinatra-subdomain'
 gem 'puma'
 gem 'redis'
