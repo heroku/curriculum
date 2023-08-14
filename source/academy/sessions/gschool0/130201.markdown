@@ -178,7 +178,7 @@ $ git commit -m "Wrote First Article"
 
 {% terminal %}
 $ gem install heroku
-$ heroku create --stack cedar
+$ heroku create
 $ git push heroku master
 {% endterminal %}
 
