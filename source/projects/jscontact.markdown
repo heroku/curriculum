@@ -152,7 +152,7 @@ Remove `gem 'sqlite3'` and replace it with the PostgreSQL gem.
 Run the `bundle` command again and now you'll have command-line access to Heroku.
 
 ```bash
-  heroku create --stack cedar
+  heroku create
 ```
 
 After running that command, you'll get back the URL where the app is accessible. Try loading the URL in your browser and you'll see the generic Heroku splash screen. It's not running your code yet so push your project up like this:
